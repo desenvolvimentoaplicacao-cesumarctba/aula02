@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+  <title>Aula 02 - Desenvolvimento Aplicações</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+	  <h2>Informe o e-mail e usuario do GITHUB</h2>
+	  <form class="form" method="POST" action="/github-invite/app.php">
+	    <div class="form-group">
+	      <label class="sr-only" for="email">Email:</label>
+	      <input type="email" class="form-control" id="email" placeholder="Enter email"  name="email">
+	    </div>
+	    <div class="form-group">
+	      <label class="sr-only" for="username">Username:</label>
+	      <input type="text" class="form-control" id="username" placeholder="Nome de Usuario"  name="username">
+    	</div>
+    	<div class="form-group">
+	      <input type="submit" class="form-control btn btn-success" placeholder="Enviar"  
+	     >
+    	</div>
+
+    </form>
+	</div>
+
+</body>
+</html>
