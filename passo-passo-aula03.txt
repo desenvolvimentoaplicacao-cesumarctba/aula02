@@ -1,0 +1,8 @@
+1 passo -> abrir o cmd e executar >> php -v
+2 passo -> Se o estiver com erro baixar o COMPOSER e instalar
+3 passo -> abrir o cmd e executar >> php -v
+4 passo -> se estiver funcionando clonar os dois exemplos da ultimas aulas 
+5 passo -> executar dentro de cada pasta >> php -S 127.0.0.1:5555 
+6 passo -> abrir o navegador e testar o endereço >> http://127.0.0.1:5555
+
+
